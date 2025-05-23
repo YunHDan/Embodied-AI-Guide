@@ -180,7 +180,7 @@
 
 > 以下是部分具身智能中常用的基础模型, 计算机视觉中发展的非常好的工具可以直接赋能具身智能的下游应用。
 
-* <font color=Red>CLIP: [website](https://github.com/openai/CLIP), 来自OpenAI的研究, 最基本的应用是可以计算图像与语言描述的相似度, 中间层的视觉特征对各种下游应用非常有帮助。</font>
+* ~~CLIP: [website](https://github.com/openai/CLIP), 来自OpenAI的研究, 最基本的应用是可以计算图像与语言描述的相似度, 中间层的视觉特征对各种下游应用非常有帮助。~~
 
 * DINO: [DINO repo](https://github.com/facebookresearch/dino), [DINO-v2 repo](https://github.com/facebookresearch/dinov2), 来自Meta的研究, 可以提供图像的高层视觉特征, 对corresponding之类的信息提取非常有帮助, 比如不同个体之间的鼻子都有类似的几何特征, 这个时候不同图像中关于不同鼻子的视觉特征值可能是近似的。
 
@@ -210,7 +210,7 @@
 
 ## 3.3 Robot Learning - 机器人学习
 
-机器人学习 Robot Learning 的发展: [zhihu](https://zhuanlan.zhihu.com/p/26988866)
+~~机器人学习 Robot Learning 的发展: [zhihu](https://zhuanlan.zhihu.com/p/26988866)~~
 
 ### 3.3.1 Model Predictive Control (MPC) - 模型预测控制
 
@@ -405,17 +405,17 @@ CS231n (斯坦福计算机视觉课程): [website](https://cs231n.stanford.edu/s
 <section id="2dv"></section>
 
 ### 3.6.1 2D Vision - 二维视觉
-* 2D Vision 领域的经典代表作
-  * CNN (卷积神经网络): [link](https://easyai.tech/ai-definition/cnn/)
-  * ResNet (深度残差网络): [bilibili](https://www.bilibili.com/video/BV1P3411y7nn/?spm_id_from=333.1387.collection.video_card.click&vd_source=930ef08bfb2ff0db87ec20bf72a99855)
-  * ViT (第一个将Transformer用在视觉领域): [bilibili](https://www.bilibili.com/video/BV15P4y137jb/?spm_id_from=333.1387.collection.video_card.click&vd_source=930ef08bfb2ff0db87ec20bf72a99855)
-  * Swin Transformer (披着Transformer皮的CNN): [bilibili](https://www.bilibili.com/video/BV13L4y1475U/?spm_id_from=333.1387.collection.video_card.click&vd_source=930ef08bfb2ff0db87ec20bf72a99855)
-  * 对比学习论文综述: [bilibili](https://www.bilibili.com/video/BV19S4y1M7hm/?spm_id_from=333.1387.collection.video_card.click&vd_source=930ef08bfb2ff0db87ec20bf72a99855)
-* 以判别式模型为主的感知任务, 比如识别、分类、分割、检测等等, 看看即可, 现在继续刷点意义不大
-* 生成式模型
-  * 自回归综述: [PDF](https://arxiv.org/pdf/2411.05902)
-  * 扩散模型综述: [PDF](https://arxiv.org/pdf/2209.00796)
-  * 如果对扩散模型的理论推导感兴趣, 可以看苏剑林老师的博客 - 生成扩散模型漫谈(推导非常清楚): [link](https://kexue.fm/archives/9119)
+* ~~2D Vision 领域的经典代表作~~
+  * ~~CNN (卷积神经网络): [link](https://easyai.tech/ai-definition/cnn/)~~
+  * ~~ResNet (深度残差网络): [bilibili](https://www.bilibili.com/video/BV1P3411y7nn/?spm_id_from=333.1387.collection.video_card.click&vd_source=930ef08bfb2ff0db87ec20bf72a99855)~~
+  * ~~ViT (第一个将Transformer用在视觉领域): [bilibili](https://www.bilibili.com/video/BV15P4y137jb/?spm_id_from=333.1387.collection.video_card.click&vd_source=930ef08bfb2ff0db87ec20bf72a99855)~~
+  * ~~Swin Transformer (披着Transformer皮的CNN): [bilibili](https://www.bilibili.com/video/BV13L4y1475U/?spm_id_from=333.1387.collection.video_card.click&vd_source=930ef08bfb2ff0db87ec20bf72a99855)~~
+  * ~~对比学习论文综述: [bilibili](https://www.bilibili.com/video/BV19S4y1M7hm/?spm_id_from=333.1387.collection.video_card.click&vd_source=930ef08bfb2ff0db87ec20bf72a99855)~~
+* ~~以判别式模型为主的感知任务, 比如识别、分类、分割、检测等等, 看看即可, 现在继续刷点意义不大~~
+* ~~生成式模型~~
+  * ~~自回归综述: [PDF](https://arxiv.org/pdf/2411.05902)~~
+  * ~~扩散模型综述: [PDF](https://arxiv.org/pdf/2209.00796)~~
+  * ~~如果对扩散模型的理论推导感兴趣, 可以看苏剑林老师的博客 - 生成扩散模型漫谈(推导非常清楚): [link](https://kexue.fm/archives/9119)~~
 
 <section id="3dv"></section>
 
@@ -489,7 +489,7 @@ CS231n (斯坦福计算机视觉课程): [website](https://cs231n.stanford.edu/s
 ## 3.8 Multimodal Models - 多模态模型
 
 > 多模态旨在统一来自不同模态信息的表征, 在具身智能中由于面对着机器识别的视觉信息与人类自然语言的引导信息等不同模态的信息，多模态技术愈发重要。
-* 最经典的工作CLIP: [知乎](https://zhuanlan.zhihu.com/p/493489688)<br>
+* ~~最经典的工作CLIP: [知乎](https://zhuanlan.zhihu.com/p/493489688)<br>~~
 * 多模态大语言模型的经典工作 LLaVA: [website](https://llava-vl.github.io/)<br>
 * 多模态生成模型综述: [pdf](https://arxiv.org/pdf/2503.04641)<br>
 * 多模态大语言模型强化学习项目：VLM-R1: [repo](https://github.com/om-ai-lab/VLM-R1) 来自OmAI Lab的多模态大语言模型DeepSeek R1-style强化学习开源项目，使用GRPO强化学习算法对多模态大语言模型进行优化，效果优于常规sft，是训练具身智能模型的一种新方向。<br>
